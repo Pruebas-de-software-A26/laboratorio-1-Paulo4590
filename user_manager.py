@@ -26,4 +26,3 @@ class UserManager:
         return sum([u["id"] for u in self.users]) / len(self.users)
 
 
-if __name__ == "__main__":
